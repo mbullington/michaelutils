@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Check if main branch exists
+if git show-ref --verify --quiet refs/remotes/origin/main; then
+  git fetch && git rebase -i origin/main
+else
+  git fetch && git rebase -i origin/master
+fi
