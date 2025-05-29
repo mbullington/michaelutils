@@ -15,7 +15,7 @@ lean and unassuming—I can easily clone onto SSH boxes of any UNIX system.
 
 ```sh
 cd ~/.local
-git clone https://codeberg.org/mbullington/michaelutils
+git clone https://github.com/mbullington/michaelutils
 ```
 
 Add to `.bashrc`, `config.fish`, whatever...
